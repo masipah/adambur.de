@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /resume.pdf
+Disallow: /.well-known/*
+Disallow: /.well-known

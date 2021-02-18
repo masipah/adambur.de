@@ -1,0 +1,166 @@
+@import url(fonts/stylesheet.css);
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: '?bold';
+  font-size: 15vmin;
+  color: #fff;
+}
+
+p {
+  font-family: '?light';
+  font-size: 4vmin;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing {
+  display: table;
+  height: 100vh;
+  width: inherit;
+  background: #00a14b;
+}
+
+.landing-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  height: inherit;
+  width: inherit;
+  text-align: center;
+}
+
+.about {
+  margin: 0vw 5vw 0px 5vw;
+}
+
+.design {
+  width: inherit;
+}
+
+.design-head {
+  display: table;
+  height: 30px;
+  width: inherit;
+  color: #000;
+}
+
+.design-head-print {
+  display: table-cell;
+  vertical-align: middle;
+  height: inherit;
+  width: inherit;
+}
+
+.design-head-digital {
+  display: table-cell;
+  vertical-align: middle;
+  height: 0vh;
+  width: inherit;
+}
+
+.design-head-print-wrapper {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.design-head-digital-wrapper {
+  padding-left: 15px;
+}
+
+.print {
+  width: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.image {
+  padding-bottom: 30px;
+}
+
+.digital {
+  width: inherit;
+  background: linear-gradient(to right bottom, #fff 50%, #224099 50%);
+}
+
+.etc {
+  width: inherit;
+  background: #224099;
+  color: #fff;
+}
+
+.etc-head {
+  height: 50vh;
+  display: table;
+  width: inherit;
+  color: #fff;
+}
+
+.etc-head-wrapper {
+  display: table-cell;
+  vertical-align: top;
+  height: inherit;
+  width: inherit;
+  padding-left: 20px;
+}
+
+.etc-body {
+  display: table-cell;
+  height: 20vh;
+  width: inherit;
+}
+
+.etc-body-wrapper {
+  display: table-cell;
+  vertical-align: bottom;
+  height: inherit;
+  width: 100vw;
+  padding-left: 15px;
+}
+
+.attention {
+  font-family: '?bold';
+  font-size: inherit;
+  text-transform: uppercase;
+
+}
+
+.head {
+  font-family: '?bold';
+  font-size: 3vmin;
+}
+
+.vertical,
+.etc-vertical {
+  -webkit-writing-mode: vertical-lr;
+}
+
+@media (min-width: 768px) {
+
+  .head {
+    font-family: '?bold';
+    font-size: 3.5vmin;
+  }
+
+  .etc-head {
+    height: 50vh;
+  }
+
+  .etc-body {
+    height: 20vh;
+  }
+
+  .footer {
+    font-size: 3vmin;
+  }
+}
